@@ -1,0 +1,24 @@
+{
+	"name": "stock-ratio/catalog",
+	"description": "",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"stockRatio\\Catalog\\": "src/",
+			"stockRatio\\Catalog\\Tests\\": "tests/",
+			"stockRatio\\Catalog\\Database\\Factories\\": "database/factories/",
+			"stockRatio\\Catalog\\Database\\Seeders\\": "database/seeders/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"stockRatio\\Catalog\\Providers\\CatalogServiceProvider"
+			]
+		}
+	}
+}

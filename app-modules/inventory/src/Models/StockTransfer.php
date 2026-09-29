@@ -1,0 +1,10 @@
+<?php
+
+namespace stockRatio\Inventory\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class StockTransfer extends Model
+{
+    //
+}

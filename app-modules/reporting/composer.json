@@ -1,0 +1,24 @@
+{
+	"name": "stock-ratio/reporting",
+	"description": "",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"stockRatio\\Reporting\\": "src/",
+			"stockRatio\\Reporting\\Tests\\": "tests/",
+			"stockRatio\\Reporting\\Database\\Factories\\": "database/factories/",
+			"stockRatio\\Reporting\\Database\\Seeders\\": "database/seeders/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"stockRatio\\Reporting\\Providers\\ReportingServiceProvider"
+			]
+		}
+	}
+}

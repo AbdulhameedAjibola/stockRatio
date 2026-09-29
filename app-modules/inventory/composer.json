@@ -1,0 +1,24 @@
+{
+	"name": "stock-ratio/inventory",
+	"description": "",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"stockRatio\\Inventory\\": "src/",
+			"stockRatio\\Inventory\\Tests\\": "tests/",
+			"stockRatio\\Inventory\\Database\\Factories\\": "database/factories/",
+			"stockRatio\\Inventory\\Database\\Seeders\\": "database/seeders/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"stockRatio\\Inventory\\Providers\\InventoryServiceProvider"
+			]
+		}
+	}
+}
